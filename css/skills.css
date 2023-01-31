@@ -35,7 +35,7 @@
 .javascript {width:22%;}
 
 .html1{
-	width:87%;
+	width:91%;
 	transition:2s;
 	background-color:#5F7FFF;
 	-webkit-backface-visibility: hidden;
@@ -46,7 +46,7 @@
 	
 }
 .css1{
-width:90%;
+width:93%;
 transition:2s;
 background-color:#5672e6;
 -webkit-backface-visibility: hidden;
@@ -55,7 +55,7 @@ background-color:#5672e6;
     /* or */
     -webkit-transform: translateZ(0);}
 .bootstrap1{
-	width:96%;
+	width:97%;
 	transition:2s;
 	background-color:#4c66cc;
 	-webkit-backface-visibility: hidden;
@@ -65,7 +65,7 @@ background-color:#5672e6;
     -webkit-transform: translateZ(0);
 }
 .javascript1{
-	width:74%;
+	width:80%;
 	transition:2s;
 	background-color:#4359b3;
 	-webkit-backface-visibility: hidden;
