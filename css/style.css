@@ -1,0 +1,158 @@
+/* Common CSS  */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;900&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+   
+}
+
+:root {
+    --priamry-color:#5F7FFF;
+
+
+    --container-width-lg:76%;
+    --container-width-md:90%;
+    --container-width-sm:94%;
+
+    --transition: all 400ms ease;
+
+}
+
+/* *:focus
+{
+
+box-shadow: 0 0 0 0.7rem var(--priamry-color);
+
+
+} */
+
+html
+{
+    scroll-behavior: smooth;
+  
+}
+
+body {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5;
+        font-weight: 400;
+        overflow-x: hidden;
+        color: rgb(51, 51, 51);
+        background-color: var(--color-bg);
+       
+}
+
+img
+{
+    width:100%;
+    display:block;
+    object-fit: cover;
+} 
+a
+{
+    color:darkblue;
+}
+p 
+{
+    color: #000;
+    opacity: 0.7;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.mt-5 
+{
+    margin-top: 20px;
+}
+.my-5
+{
+    margin: 20px 0;
+}
+
+h4{
+
+color: var( --priamry-color)!important;
+letter-spacing: 2px;
+font-weight: 500;
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+h4:hover
+{
+color: #717171;
+}
+
+
+  h1,h2,h3,h4,h5
+  {
+    color: rgb(19, 17, 17);
+    font-family: inherit;
+    font-weight: 500;
+  }
+  span 
+  {
+     color: #5473f0;
+     font-weight: 500;
+  }
+
+
+ .head__common
+ {
+   
+    text-align: center;
+    margin: 5rem 0;
+    letter-spacing: 1px;
+ }
+
+
+.h2
+{
+    position: relative;
+}
+ .h2::after
+ {
+    position: absolute;
+    content: " ";
+    border-bottom: 3px solid #5473f0;
+    width: 30px;
+    text-align: center;
+    top: 140%;
+    left: 49%;
+   
+   
+    
+ }
+
+ .flex 
+ {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    gap: 1.5rem;
+ }
+
+ .container
+{
+    width:var(--container-width-lg);  
+    padding: 0 5rem;
+    margin: 0 auto;
+}
+.container__header
+{
+    width:var(--container-width-lg);
+    padding: 0;
+    margin: 0 auto;
+}
+
+section
+{
+    margin: 5rem 0;
+   
+}

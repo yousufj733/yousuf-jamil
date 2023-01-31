@@ -1,0 +1,78 @@
+
+#Projects
+{
+  border-top: 1px solid rgba(34,34,34,.1);
+  /* box-shadow:  0 0.9rem 1rem rgba(0, 0, 0,.1); */
+
+  
+}
+    .project 
+    {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+   
+ 
+    
+    }
+    .project__box {
+    border: 1px solid rgba(34,34,34,.1);
+    border-radius: 11px;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0,.1);
+
+    }
+    .project__box img 
+    {
+    width: 100%;
+    border: 1px solid rgba(34,34,34,.1);
+
+
+    }
+
+
+    .btn__card 
+    {
+    width: 30%;
+    text-align: center;
+    padding: 0 1.5rem;
+    }
+    h3 
+    {
+    padding: 1.5rem;
+    }
+    .source__code
+    {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    }
+
+    .git__code
+    {
+    border: 1px solid rgba(34,34,34,.1);
+    padding: 3.5rem;
+    border-radius: 11px;
+    margin-top: 5rem ;
+    }
+    .git__code a 
+    {
+    color: #000;
+    }
+    .git__code h5 
+    {
+    color: #717171;
+    font-size: 15px;
+    margin-bottom: 15px;
+    }
+
+    .git__code h5:hover
+    {
+    color: var( --priamry-color);
+    }
+
+
+

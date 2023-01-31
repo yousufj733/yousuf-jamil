@@ -1,0 +1,157 @@
+.hero 
+{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 5em;
+}
+
+.banner__img 
+{
+    height: 290px;
+    margin-top: -55px;
+}
+
+.hero__left 
+{
+    flex-basis: 74%;
+}
+.hero__left h1 
+{
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+ 
+}
+.hero__left h3
+{
+    text-transform: capitalize;
+     margin: 5px 0;
+     padding: 0;
+     font-size: 15px;
+     font-weight: 500;
+     color: var( --priamry-color);
+}
+.hero__left p 
+{
+    width: 80%;
+    font-size: 14px;
+    opacity: 0.6;
+    color: #000;
+    line-height: 1.9;
+    
+}
+.hero__right img 
+{
+    width: 100%;
+    
+}
+
+.works {
+    display: flex;
+    /* flex-direction: column;
+    align-self: center; */
+    /* align-items: center; */
+    gap: 2rem;
+    padding: 3rem;
+    border: 1px solid black;
+    border-radius: .8rem;
+    position: relative;
+    margin-top: 40px;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.works:before {
+    position: absolute;
+    content: "";
+    background: url('../images/confetti.svg');
+    width: 100px;
+    height: 100px;
+    top: -20px;
+    left: -20px;
+    z-index: 2;
+}
+
+.projects__work {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.details {
+    font-size: 2.4rem;
+    margin: 0;
+}
+
+
+
+/* ##########################   Media Queries  (Ipad and Tablets)
+############################*/
+
+
+@media  screen and (max-width:1024px){
+
+        .container
+        {
+        width: var( --container-width-md);  
+        padding: 0 1rem;
+        }
+        .banner__img 
+        {
+        padding: 0.7rem 0;
+        height: 270px;
+        margin-top: -65px;
+        }
+        .hero 
+        {
+        flex-direction: column;
+        padding-top: 6rem;
+        }
+        .hero__left p
+        {
+
+        width: 100%;
+        }
+      
+}
+
+/* ##########################   Media Queries  (Mobile)
+############################*/
+
+
+@media  screen and (max-width:600px){
+
+.container
+{
+width: var( --container-width-sm);  
+padding: 0 1rem;
+}
+.banner__img 
+{
+padding: 0.6rem 0;
+height: 190px;
+}
+
+.hero 
+{
+
+padding-top: 2rem;
+}
+.hero__left h1 
+{
+    font-size: 1.5rem;
+   
+}
+.hero__left p 
+{
+    width: 100%;
+    font-size: 12px;
+  
+}
+
+
+
+   
+}
