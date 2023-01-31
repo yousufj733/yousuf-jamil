@@ -239,4 +239,64 @@
       bottom: 100%;
     }
   }
+  /* ##########################   Media Queries  (Ipad and Tablets)
+############################*/
+
+
+@media  screen and (max-width:1024px){
+}
+
+
+  /* ##########################   Media Queries  (Ipad and Tablets)
+############################*/
+
+@media  screen and (max-width:600px){
+
+  .form__class
+  {
+      
+      grid-template-columns: 1fr;
+      align-self: flex-start;
+     
+   }
+  .user-box label 
+  {
+    font-size: 13px!important;
+
+  }
+   .login-box {
+    width: 408px;
+    padding: 32px;
+   }
+   .login-box .user-box input {
+    width: 47%;
+   }
+   .login-box h2 {
+
+    font-size: 20px;
+    margin-bottom: 40px;
+   }
+  .contact__me
+  {
+      width: 410px;
+      padding: 20px;
   
+  }
+  .contact__me h4 {
+    font-size: 13px;
+  }
+  .contact__me p {
+    font-size: 13px;
+  }
+  .contact__me .fa__2 {
+   
+    width: 34px;
+    height: 34px;
+    
+    font-size: 15px;
+  }
+  .login-box form button
+  {
+    font-size: 13px;
+  }
+}
