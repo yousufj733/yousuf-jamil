@@ -48,5 +48,32 @@
     height:40px;
    
 }
+/* ##########################   Media Queries  (BIG)
+############################*/
 
 
+@media  screen and (max-width:1024px)
+
+{
+
+.header {
+ 
+    padding: 40px -50px;
+
+}
+}
+/* ##########################   Media Queries  (small)
+############################*/
+@media  screen and (max-width:600px)
+
+{
+
+.header {
+ 
+    padding: 40px -50px;
+
+}
+.logo1 {
+    height: 149px;
+}
+}

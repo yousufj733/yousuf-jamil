@@ -3,7 +3,7 @@
     display: flex;
     gap: 2rem;
     align-items: center;
-    padding-top: 5em;
+    padding-top:6rem;
 }
 
 .banner__img 
@@ -121,7 +121,9 @@
 ############################*/
 
 
-@media  screen and (max-width:600px){
+@media  screen and (max-width:600px)
+
+{
 
 .container
 {
@@ -133,7 +135,10 @@ padding: 0 1rem;
 padding: 0.6rem 0;
 height: 190px;
 }
-
+#Hero 
+{
+    padding-top: 3rem;
+}
 .hero 
 {
 
@@ -150,8 +155,22 @@ padding-top: 2rem;
     font-size: 12px;
   
 }
-
-
-
+.works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center; 
+   align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 100%;
+}
+.projects__work {
+    font-size: 2rem;
+}
+.mobile-menu {
+   
+    height: 50vh;
+}
    
 }

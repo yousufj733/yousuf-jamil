@@ -36,3 +36,22 @@
     color: #000!important;
     border: 1px solid var(--priamry-color);
 }
+
+/* ##########################   Media Queries  (Ipad and Tablets)
+############################*/
+
+
+@media  screen and (max-width:1024px){
+}
+
+@media  screen and (max-width:600px){
+
+    .btn 
+{
+   
+    border-radius: 5px;
+    font-size: 12px!important;
+    padding:7px 18px;  
+   
+}
+}

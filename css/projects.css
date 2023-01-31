@@ -76,3 +76,50 @@
 
 
 
+/* ##########################   Media Queries  (Ipad and Tablets)
+############################*/
+
+
+@media  screen and (max-width:1024px){
+
+  .container
+  {
+  width: var( --container-width-md);  
+  
+  }
+  .project 
+  {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+
+  }
+  }
+
+  @media  screen and (max-width:600px)
+  {
+
+    .container
+    {
+    width: var( --container-width-sm);  
+    padding: 0;
+    }
+    .project 
+    {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+   
+    }
+    .project__box h3 
+    {
+      font-size: 15px;
+    }
+    .source__code
+    {
+  
+    grid-template-columns: 100%;
+    }
+    }
+
+  
