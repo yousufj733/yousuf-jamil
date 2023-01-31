@@ -166,8 +166,8 @@ section
 {
     .container
     {
-        width:var(--container-width-md);  
-        
+      width: var(--container-width-md);
+      padding: 0;
     }
     .container__header
     {
@@ -184,8 +184,8 @@ section
 {
     .container
     {
-        width:var(--container-width-sm);  
-        
+      width: var(--container-width-sm);
+      padding: 0;
     }
     .container__header
     {
