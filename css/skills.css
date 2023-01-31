@@ -55,7 +55,7 @@ background-color:#5672e6;
     /* or */
     -webkit-transform: translateZ(0);}
 .bootstrap1{
-	width:80%;
+	width:96%;
 	transition:2s;
 	background-color:#4c66cc;
 	-webkit-backface-visibility: hidden;
