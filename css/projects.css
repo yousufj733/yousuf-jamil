@@ -31,13 +31,15 @@
     width: 100%;
     border: 1px solid rgba(34,34,34,.1);
 
-
     }
 
-
+    .project__box h3 
+    {
+      font-size: 18px;
+    }
     .btn__card 
     {
-    width: 30%;
+   
     text-align: center;
     padding: 0 1.5rem;
     }
@@ -82,28 +84,25 @@
 
 @media  screen and (max-width:1024px){
 
-  .container
-  {
-  width: var( --container-width-md);  
   
-  }
   .project 
   {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
+ 
 
   }
+  .project__box h3 
+  {
+    font-size: 15px;
   }
-
+  }
+/* ##########################   Media Queries  (Ipad and Tablets)
+############################*/
   @media  screen and (max-width:600px)
   {
 
-    .container
-    {
-    width: var( --container-width-sm);  
-    padding: 0;
-    }
+    
     .project 
     {
     display: grid;
