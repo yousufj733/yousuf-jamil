@@ -56,11 +56,17 @@
 
 {
 
-.header {
+    .header {
  
-    padding: 40px -50px;
-
-}
+        padding: 40px 10px;
+    
+    }
+    .sticky-header.active .header
+    {
+        padding: 40px 10px;
+    
+       
+    }
 }
 /* ##########################   Media Queries  (small)
 ############################*/
@@ -70,8 +76,14 @@
 
 .header {
  
-    padding: 40px -50px;
+    padding: 40px 10px;
 
+}
+.sticky-header.active .header
+{
+    padding: 40px 10px;
+
+   
 }
 .logo1 {
     height: 149px;
