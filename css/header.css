@@ -76,4 +76,15 @@
 .logo1 {
     height: 149px;
 }
+.head__common
+{
+   font-size: 20px;
+  
+}
+.h2::after
+{
+ 
+   left: 47%;
+  
+}
 }

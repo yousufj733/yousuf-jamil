@@ -161,7 +161,7 @@ section
 ############################*/
 
 
-@media  screen and (max-width:1024px)
+/* @media  screen and (max-width:1024px)
 
 {
     .container
@@ -176,10 +176,10 @@ section
     }
     
 
-}
+} */
 /* ##########################   Media Queries  (BIG)
 ############################*/
-@media  screen and (max-width:600px)
+/* @media  screen and (max-width:600px)
 
 {
     .container
@@ -192,15 +192,5 @@ section
         width:var(--container-width-sm);
         
     }
-    .head__common
-    {
-       font-size: 20px;
-      
-    }
-    .h2::after
-    {
-     
-       left: 47%;
-      
-    }
-}
+
+} */

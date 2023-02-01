@@ -1,10 +1,10 @@
 .form__class
 {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 1rem;
-    align-self: flex-end;
-   
+
+  
+   display: flex;
+   gap: 1rem;
+   padding: 0;
  }
 
 
@@ -12,7 +12,7 @@
 
 .contact__me
 {
-    width: 580px;
+    width: 50%;
     padding: 40px;
     background:#263366;
     box-sizing: border-box;
@@ -30,7 +30,7 @@
 }
 .contact__me p 
 {
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
   opacity: 1;
  
@@ -38,7 +38,7 @@
 
 .contact__me h4 
 {
-  font-size: 20px;
+  font-size: 16px;
   color: #fff!important;
   opacity: 0.6;
 }
@@ -67,10 +67,8 @@
 
 .login-box {
   
-    width: 750px;
+    width: 80%;
     padding: 40px;
-    /* transform: translate(-50%, -50%); */
-    /* background: rgba(0,0,0,.9); */
     background:#263366;
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
@@ -93,7 +91,6 @@
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
-    /* color: rgba(255, 255, 255, 0.753); */
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 30px;
     border: none;
@@ -244,6 +241,35 @@
 
 
 @media  screen and (max-width:1024px){
+  .container
+  {
+    width: var(--container-width-md);
+    padding: 0;
+  }   
+  
+
+   .form__class
+{
+
+  
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   padding: 0 ;
+ }
+
+
+  .login-box {
+    width: 100%;
+    padding: 32px;
+   }
+   .contact__me
+   {
+       width: 100%;
+       
+   }
+
+
 }
 
 
@@ -256,25 +282,23 @@
   .container
     {
       width: var(--container-width-sm);
-      padding: 0;
+     
     }
 
-  .form__class
-  {
-      
-      grid-template-columns: 1fr;
-      align-self: flex-start;
-     
-   }
+    .form__class
+    {
+       
+       display: flex;
+       flex-direction: column;
+       gap: 0.5rem;
+       padding: 0 ;
+     }
   .user-box label 
   {
     font-size: 13px!important;
 
   }
-   .login-box {
-    width: 408px;
-    padding: 32px;
-   }
+ 
    .login-box .user-box input {
     width: 47%;
    }
@@ -283,12 +307,7 @@
     font-size: 20px;
     margin-bottom: 40px;
    }
-  .contact__me
-  {
-      width: 410px;
-      padding: 20px;
-  
-  }
+
   .contact__me h4 {
     font-size: 13px;
   }
