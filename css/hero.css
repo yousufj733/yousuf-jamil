@@ -16,13 +16,13 @@
 {
     flex-basis: 74%;
 }
-.hero__left h1 
+/* .hero__left h1 
 {
     font-size: 2.5rem;
     font-weight: 500;
     text-transform: uppercase;
  
-}
+} */
 .hero__left h3
 {
     text-transform: capitalize;
@@ -52,7 +52,7 @@
     /* flex-direction: column;
     align-self: center; */
     /* align-items: center; */
-    gap: 2rem;
+    gap: 1rem;
     padding: 3rem;
     border: 1px solid black;
     border-radius: .8rem;
@@ -85,6 +85,28 @@
     margin: 0;
 }
 
+/* ##########################   Media Queries  (Ipad and Tablets)
+############################*/
+
+
+
+  
+    .works {
+       gap: 0;
+    
+       
+    }
+    .hero__left h1 
+    {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-transform: uppercase;
+     
+    }
+ 
+
+
+
 
 
 /* ##########################   Media Queries  (Ipad and Tablets)
@@ -93,11 +115,11 @@
 
 @media  screen and (max-width:1024px){
 
-        .container
-        {
-        width: var( --container-width-md);  
-        padding: 0 1rem;
-        }
+    .container
+    {
+    width: var( --container-width-md);  
+    padding: 0;
+    }
         .banner__img 
         {
         padding: 0.7rem 0;
