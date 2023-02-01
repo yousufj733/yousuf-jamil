@@ -20,6 +20,7 @@
 	padding:10px 30px;
 	border-radius:5px;
 	color: white !important;
+	font-size: 15px;
 }
 
 
@@ -42,7 +43,7 @@
 .css,
 .bootstrap,
 .git,
-.javascript {width:22%;}
+.javascript {width:33%;}
 
 .html1{
 	width:91%;
@@ -138,13 +139,13 @@ color: #fff;
 	.html,.css,.bootstrap,.javascript,.git
 {
 	
-	padding:15px 30px;
-	font-size: 12px;
+	/* padding:15px 30px; */
+	font-size: 14px;
 }
 
 
 .html1,.css1,.bootstrap1,.javascript1,.git1{
-	font-size: 13px;
+	font-size: 14px;
 	
 }
 
