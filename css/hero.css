@@ -1,7 +1,8 @@
 .hero 
 {
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
+    justify-content: center;
     align-items: center;
     padding-top:6rem;
 }
@@ -41,6 +42,7 @@
     line-height: 2;
     
 }
+
 .hero__right img 
 {
     width: 100%;
